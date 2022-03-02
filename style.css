@@ -26,8 +26,14 @@ a {
   border-radius: 20px;
 }
 
+.projects:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 5px white;
+}
+
 .projects {
-  cursor: help;
+  border-radius: 20px;
+  margin-right: 20px;
 }
 
 button {
