@@ -28,7 +28,7 @@ a {
 
 .projects:hover {
   cursor: pointer;
-  box-shadow: 5px 5px 5px white;
+  box-shadow: 0 0 2em white;
 }
 
 .projects {
