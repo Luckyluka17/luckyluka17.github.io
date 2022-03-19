@@ -17,10 +17,14 @@ nav {
   position: fixed;
   color: black;
   box-shadow: 0 0 1em white;
+  padding: 12px;
 }
 
 .element {
   transition: all 0.35s ease-in-out;
+  box-shadow: none;
+  border: none;
+  font-size: 22px;
 }
 
 .element:hover {
@@ -75,4 +79,21 @@ img {
 img:hover {
   box-shadow: 0 0 15px white;
   transition: all 0.2s ease-in-out;
+}
+
+.card {
+  transition: all 0.2s ease-in-out;
+  border-radius: 20px;
+  margin-right: 20px;
+  width: 30%;
+}
+
+.card:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.2);
+  box-shadow: 0 0 15px grey;
+}
+
+section {
+  margin-top: 100px;
 }
