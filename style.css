@@ -7,6 +7,7 @@ html {
     font-size: 30;
     scroll-behavior: smooth;
     transition: all 0.2s ease-in-out;
+    scroll-behavior: smooth;
 }
 
 #presentation {
@@ -56,7 +57,22 @@ img {
 }
 
 img:hover {
-    transform: scale(1.2) rotate(-10deg);
+    transform: scale(1.5) rotate(-10deg);
     background-color: greenyellow;
     border-radius: 5px;
+}
+
+progress {
+    width: 10%;
+    background-color: greenyellow;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+section {
+    margin-top: 600px;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
