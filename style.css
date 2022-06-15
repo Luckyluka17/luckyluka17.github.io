@@ -10,6 +10,12 @@ html {
     scroll-behavior: smooth;
 }
 
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+}
+
 #presentation {
     margin-top: 320px;
     font-family: 'Poppins', sans-serif;
@@ -53,6 +59,7 @@ a {
 img {
     width: 40px;
     margin-right: 15px;
+    cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
 
