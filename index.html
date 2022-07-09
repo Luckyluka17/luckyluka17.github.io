@@ -11,11 +11,20 @@
             }
         </script>
         <meta charset="utf-8">
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     </head>
     <body scroll="no">
         <div id="presentation">
-            <a href="#" id="title_link"><h1>👋 Salut ! Je suis <a href="#" class="special">Luckyluka17</a>.</h1></a>
-            <h2>Je code en <a href="https://www.python.org/" target="_blank" class="special">Python</a> & <a href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank" class="special">HTML/CSS</a> et <a class="special" href="#">d'autres langages</a>.</h2>
+            <a href="#" id="title_link"><h1>👋 Salut ! Je suis <a id="pseudo" class="special">Luckyluka17</a>.</h1></a>
+            <h2>Je programme en <a class="special" id="auto-input"></a>.</h2>
+            <script>
+                let typed = new Typed("#auto-input", {
+                strings: ["Python", "HTML", "CSS", "Batch", "Ti-Basic", "Scratch"],
+                typeSpeed: 65,
+                backSpeed: 65,
+                loop: true
+                })
+            </script>
             <h2>Vous pouvez me suivre sur GitHub pour voir mes<br>projets et autres.</h2>
             <a href="mailto:luckylukadu17@programmer.net" target="_blank" title="Me contacter par email">
                 <img width="40px" src="assets/icons/email.png">
@@ -28,9 +37,6 @@
             </a>
             <a href="https://www.buymeacoffee.com/luckyluka17" target="_blank" title="Faire un don">
                 <img width="40px" src="assets/icons/donate.png">
-            </a>
-            <a onclick="aboutme()" title="A propos de moi">
-                <img width="40px" src="assets/icons/me.png">
             </a>
         </div>
     </body>
